@@ -2,15 +2,14 @@ package ReplitAssignment;
 
 public class Aa {
     public static void main(String[] args) {
-        int num1 = 3;
-        int num2 = 7;
-        int num3 = 5;
-        int num4 = 1;
+ int [] number= {34,76,45,88,54,97,54,77,4,90,44,7,5,44};
+ int largest=number[0];
+ for (int a: number){
+     if (a>largest){
+         largest=a;
 
-        //start coding here
-        int add=num1+num2;
-        int division=add/num3;
-        int res=division-num4;
-        System.out.println("The result of arithmetic operations is equal to "+res+"");
+     }
+ }
+        System.out.println(largest);
     }
 }
