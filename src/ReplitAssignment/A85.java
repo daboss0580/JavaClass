@@ -9,11 +9,17 @@ public class A85 {
                 {1,-2,3,-4}
         };
         int sum=0;
-        for (int i = 1; i < a.length; i=i+2) {
-            for (int j = 0; j < a[i].length; j++) {
+        for (int i = 0; i < a.length; i=i+2) {
+            if (i%2==0) {
+                for (int j = 0; j < a[i].length; j++) {
+                    if (j%2==0){
+                        sum+=a[i][j];
+                    }
 
-                	}
+                }
             }
+            }
+        System.out.println(sum);
         }
 
     }

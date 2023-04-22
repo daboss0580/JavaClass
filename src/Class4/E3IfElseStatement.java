@@ -2,7 +2,7 @@ package Class4;
 
 public class E3IfElseStatement {
     public static void main(String[] args) {
-        int day = 10;
+        int day = 2;
         if (day == 1) {
             System.out.println("Monday");
         } else if (day == 2) {
