@@ -12,8 +12,9 @@ public class A101 {
         System.out.print("In:");
         String word = inp.nextLine();
         //write your code below
-        for (int a=0; a<word.length(); a++){
-            word.trim();
+        for (int a=0; a<word.length(); a+=2){
+
+            System.out.println(word.charAt(a));
 
         }
 

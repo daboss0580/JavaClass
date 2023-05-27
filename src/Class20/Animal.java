@@ -109,7 +109,7 @@ public class Animal {
         Horse horse = new Horse("Gavin", "Dunno","Black", 158.58,102);
         SmallDog smallDog = new SmallDog("Kiki","Buabel","Black","WoofwooF",19.4,"Play");
         dog.sleep();
-        /*
+
         dog.eat();
         dog.fight();
         dog.sleep();
@@ -129,7 +129,7 @@ public class Animal {
         smallDog.fight();
         smallDog.sleep();
         smallDog.printInfo();
-         */
+
 
     }
 }

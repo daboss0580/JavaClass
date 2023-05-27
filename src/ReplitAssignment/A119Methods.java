@@ -13,20 +13,23 @@ a char
 Then complete the method by programming the following behavior
 Replace all instances of given character with a "*" within the given String.
 See below examples.
+
      */
-    static void censorLetter(String name, String x){
-        String b = null;
-        for (int a=0; a<name.length(); a++){
-            if (b.equals(name.charAt(a))) {
-                System.out.println(b.replace("x","*"));
 
-            }
-            }
-        }
+    static String censorLetter(String x,char y) {
+        return x.replace(y,'*');
 
 
+    }
 
     public static void main(String[] args) {
-        censorLetter("computer science","e");
+
+        System.out.println(censorLetter("computer science",'e'));
+        System.out.println(censorLetter("train",'n'));
+
     }
+
 }
+
+
+
