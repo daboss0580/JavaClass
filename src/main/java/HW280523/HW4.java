@@ -22,6 +22,7 @@ Write a logic to find sum of all integers
             sum=nums+sum;
         }
         System.out.println(sum);
+
     }
 }
 
