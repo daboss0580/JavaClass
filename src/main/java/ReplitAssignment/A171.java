@@ -10,11 +10,20 @@ m1 without parameters
 m1 method with parameter
      */
 public abstract void m1();
-
+public abstract void m1(String x);
 }
-abstract class A171Child extends A171{
-    public void m1(){
+class A171Child extends A171 {
+    public void m1() {
         System.out.println("m1 without parameters");
     }
-
+    public void m1(String x) {
+        System.out.println("m1 method with parameters");
+    }
+}
+class A171Tester{
+    public static void main(String[] args) {
+        A171 a171=new A171Child();
+        a171.m1();
+        a171.m1(" ");
+    }
 }

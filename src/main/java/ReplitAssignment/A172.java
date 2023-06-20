@@ -9,7 +9,7 @@ In main method execute both methods
 Child class providing implementation
 Parent class providing implementation
      */
-    abstract void m1();
+    public abstract void m1();
     void m2(){
         System.out.println("Parent class providing implementation");
     }
@@ -17,7 +17,7 @@ Parent class providing implementation
 class A172Child extends A172{
 
     @Override
-    void m1() {
+    public void m1() {
         System.out.println("Child class providing implementation");
     }
 }
